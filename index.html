@@ -1,29 +1,76 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fa" dir="rtl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RIOX</title>
     <style>
-        body {
-            font-family: Tahoma, Arial, sans-serif;
-            background-color: #f0f4f8;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-        h1 {
-            color: #2c3e50;
-            background: #ecf0f1;
-            padding: 20px 40px;
-            border-radius: 12px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        }
+      body {
+        margin: 0 auto;
+        max-width: 900px;
+        text-align: center;
+        padding: 10px;
+      }
+      table {
+  margin: 20px auto; /* بالا/پایین 20px و چپ/راست خودکار (همان وسط‌چینی) */
+  border-collapse: collapse; /* (اختیاری) برای بهتر دیده شدن خطوط جدول */
+  width: auto; /* یا هر عرض دلخواه مثل 80%، ولی اگر 100% باشد وسط نمی‌ماند! */
+}
     </style>
-</head>
-<body>
-    <h1>ازت ممنونم که دلیل انگیزمی❤️</h1>
-</body>
+  </head>
+  <body>
+    <h1>تمرین مرحله سوم</h1>
+    <a href="#down" id="txt01">برو پایین صفحه</a>
+    <hr />
+    <h2>تمرین کردن انواع تگ های نوشتاری</h2>
+    <q>تست تگ q </q>
+    <br />
+    <cite>تست تگ cite</cite>
+    <br />
+    <abbr> تست تگ abbr</abbr>
+    <hr />
+    <p>
+      <strong>تمرین تگ لینک</strong>
+    </p>
+    <a href="http://www.google.com" target="_blank">
+      <p>
+        <strong>google search</strong>
+      </p>
+    </a>
+    <p>تمرین جدول یا همان تیبل</p>
+
+    <table border="1">
+      <thead>
+        <tr> <!-- ردیف هدر جدول -->
+          <th colspan="3">تعرفه های codex RioX</th>
+        </tr> <!-- پایان ردیف هدر -->
+      </thead>
+      <tbody>
+        <tr> <!-- ردیف اول -->
+          <td>150$</td>
+          <td>با ادمین</td>
+          <td rowspan="2">وبسایت کامل</td>
+        </tr> <!-- پایان ردیف اول -->
+        <tr> <!-- ردیف دوم -->
+          <td>100$</td>
+          <td>بدون ادمین</td>
+        </tr> <!-- پایان ردیف دوم -->
+        <tr> <!-- ردیف سوم -->
+          <td>80$</td>
+          <td>سفارشی</td>
+          <td>فایل سایت</td>
+        </tr> <!-- پایان ردیف سوم -->
+      </tbody>
+      <tfoot>
+        <tr> <!-- ردیف فوتر -->
+          <td>50$</td>
+          <td>سفارشی</td>
+          <td>دیزاین</td>
+        </tr> <!-- پایان ردیف فوتر -->
+      </tfoot>
+    </table>
+
+    <br />
+    <a href="#txt01"><p id="down">برو بالای صفحه</p></a>
+  </body>
 </html>
